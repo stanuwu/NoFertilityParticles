@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.stanuwu.nofertilityparticles.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "nofertilityparticles.refmap.json",
+  "mixins": [
+    "ServerLevelMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
